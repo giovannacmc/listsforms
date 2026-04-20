@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas aplicadas com CSS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Listas de Presentes e Estilos</h1>
+      <p>
+        Descubra as melhores opções de produtos e organize suas escolhas com
+        listas práticas, modernas e fáceis de entender.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>1. Escolha os itens de sua preferência</h2>
+        <p>Seção de eletrônicos, com diversificação de marcas e modelos.</p>
+
+        <ul>
+          <li>Apple</li>
+          <li>Samsung</li>
+          <li>Sony</li>
+          <li>Microsoft</li>
+          <li>Motorola</li>
+        </ul>
+
+        <div class="grid-listas">
+          <div class="card">
+            <h3>Lista não ordenada</h3>
+            <p>Utilizada quando a ordem não importa.</p>
+
+            <ul>
+              <li>Iphone</li>
+              <li>Galaxy</li>
+              <li>Xbox One</li>
+              <li>Edge</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Lista ordenada</h3>
+            <p>Segue uma sequência lógica.</p>
+
+            <ol>
+              <li>Tablet Galaxy Tab</li>
+              <li>iPad</li>
+              <li>Surface</li>
+              <li>Alienware (Dell)</li>
+              <li>Yoga (Lenovo)</li>
+            </ol>
+          </div>
+
+          <div class="card">
+            <h3>Lista de definição</h3>
+            <p>Apresenta termos e definições.</p>
+
+            <dl>
+              <dt>Lançamentos do ano</dt>
+              <dd>Assine nossa newsletter para novidades.</dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <p class="destaque">
+        Para ficar atualizado sobre lançamentos, acompanhe nossas redes.
+      </p>
+    </main>
+
+    <footer>
+      <p>© 2026 - Site da gigi :)</p>
+    </footer>
+  </body>
+</html>
+<section>
+  <h2>2. Cadastre-se</h2>
+  <p>Preencha o formulário para receber novidades.</p>
+
+  <form>
+    <label for="nome">Nome:</label><br />
+    <input type="text" id="nome" name="nome" required /><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="marca">Marca favorita:</label><br />
+    <select id="marca" name="marca">
+      <option>Apple</option>
+      <option>Samsung</option>
+      <option>Sony</option>
+      <option>Microsoft</option>
+      <option>Motorola</option></select
+    ><br /><br />
+
+    <label>Interesses:</label><br />
+    <input type="checkbox" name="interesse" /> Smartphones<br />
+    <input type="checkbox" name="interesse" /> Notebooks<br />
+    <input type="checkbox" name="interesse" /> Games<br /><br />
+
+    <label>Gênero:</label><br />
+    <input type="radio" name="genero" /> Feminino<br />
+    <input type="radio" name="genero" /> Masculino<br /><br />
+
+    <label for="mensagem">Mensagem:</label><br />
+    <textarea id="mensagem" rows="4"></textarea><br /><br />
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+  </form>
+</section>
