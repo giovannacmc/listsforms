@@ -32,8 +32,6 @@
         <div class="grid-listas">
           <div class="card">
             <h3>Lista não ordenada</h3>
-            <p>Utilizada quando a ordem não importa.</p>
-
             <ul>
               <li>Iphone</li>
               <li>Galaxy</li>
@@ -44,8 +42,6 @@
 
           <div class="card">
             <h3>Lista ordenada</h3>
-            <p>Segue uma sequência lógica.</p>
-
             <ol>
               <li>Tablet Galaxy Tab</li>
               <li>iPad</li>
@@ -57,14 +53,50 @@
 
           <div class="card">
             <h3>Lista de definição</h3>
-            <p>Apresenta termos e definições.</p>
-
             <dl>
               <dt>Lançamentos do ano</dt>
               <dd>Assine nossa newsletter para novidades.</dd>
             </dl>
           </div>
         </div>
+      </section>
+
+      <section>
+        <h2>2. Cadastre-se</h2>
+        <p>Preencha o formulário para receber novidades.</p>
+
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="marca">Marca favorita:</label>
+          <select id="marca" name="marca">
+            <option>Apple</option>
+            <option>Samsung</option>
+            <option>Sony</option>
+            <option>Microsoft</option>
+            <option>Motorola</option>
+          </select>
+
+          <label>Interesses:</label>
+          <input type="checkbox" name="interesse" /> Smartphones
+          <input type="checkbox" name="interesse" /> Notebooks
+          <input type="checkbox" name="interesse" /> Games
+
+          <label>Gênero:</label>
+          <input type="radio" name="genero" /> Feminino
+          <input type="radio" name="genero" /> Masculino
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" rows="4"></textarea>
+
+          <br /><br />
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </form>
       </section>
 
       <p class="destaque">
@@ -77,39 +109,3 @@
     </footer>
   </body>
 </html>
-<section>
-  <h2>2. Cadastre-se</h2>
-  <p>Preencha o formulário para receber novidades.</p>
-
-  <form>
-    <label for="nome">Nome:</label><br />
-    <input type="text" id="nome" name="nome" required /><br /><br />
-
-    <label for="email">Email:</label><br />
-    <input type="email" id="email" name="email" required /><br /><br />
-
-    <label for="marca">Marca favorita:</label><br />
-    <select id="marca" name="marca">
-      <option>Apple</option>
-      <option>Samsung</option>
-      <option>Sony</option>
-      <option>Microsoft</option>
-      <option>Motorola</option></select
-    ><br /><br />
-
-    <label>Interesses:</label><br />
-    <input type="checkbox" name="interesse" /> Smartphones<br />
-    <input type="checkbox" name="interesse" /> Notebooks<br />
-    <input type="checkbox" name="interesse" /> Games<br /><br />
-
-    <label>Gênero:</label><br />
-    <input type="radio" name="genero" /> Feminino<br />
-    <input type="radio" name="genero" /> Masculino<br /><br />
-
-    <label for="mensagem">Mensagem:</label><br />
-    <textarea id="mensagem" rows="4"></textarea><br /><br />
-
-    <button type="submit">Enviar</button>
-    <button type="reset">Limpar</button>
-  </form>
-</section>
